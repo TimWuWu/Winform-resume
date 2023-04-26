@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Myresume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MySkill>
+    <Skill>
+      <ComponentsFour>one</ComponentsFour>
+      <ComponentsThree>one</ComponentsThree>
+      <ComponentsTwo>oneo</ComponentsTwo>
+      <ComponentsOne>one</ComponentsOne>
+      <Topic>topicone</Topic>
+    </Skill>
+  </MySkill>
+  <MyJobs>
+    <Job>
+      <CompanyName>one</CompanyName>
+      <Title>oen</Title>
+      <Duty>oneoneethreetwoone</Duty>
+      <Input>one</Input>
+      <Output>one</Output>
+    </Job>
+  </MyJobs>
+  <MyEducation>
+    <Education>
+      <Stage>one</Stage>
+      <SchoolName>oen</SchoolName>
+      <Period>one</Period>
+      <Majoy>one</Majoy>
+      <Start>one</Start>
+    </Education>
+  </MyEducation>
+  <MybasicInfo>
+    <Name>伍天明</Name>
+    <Address>深圳罗湖</Address>
+    <Age>33</Age>
+    <Email>wtm20070994@163.com</Email>
+    <PhoneNumber>18927438725</PhoneNumber>
+    <Experience>12</Experience>
+  </MybasicInfo>
+</Myresume>

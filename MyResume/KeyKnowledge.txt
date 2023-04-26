@@ -1,0 +1,18 @@
+﻿数据绑定 有三要素  控件（Control） 绑定（Binding） 数据源（source）
+	对三要素的管理
+	数据分为三类：单一对象（）
+				  集合（List<T>,Dictionary<T>）
+				  集合的集合<DataSet>(DataSet是DataTable的集合，DataTable本身就是集合)
+	绑定的管理也分三类 :绑定的管理者根据绑定的对象自动选择  
+	PropertyManager和CurrencyManager都是 BindingManagerBase的子类
+				  PropertyManager :如果绑定的数据是单一对象
+				  CurrencyManager:如果绑定的数据是集合
+				  CurrencyManager:如果绑定的数据是复杂数据（即集合的集合）
+	控件Control通过 BindingContext管理 绑定的管理 BingdingContext是BindingManagerBase的集合
+
+事件冒泡
+	在树形数据结构中，下层节点的事件被触发后，会逐级冒泡寻找事件处理程序。
+
+数据中转中心 为 数据永久层
+
+UI（控件）的数据源无法直接更换，但是可以通过删除旧的数据绑定添加新的数据绑定实现。

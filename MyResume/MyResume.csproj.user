@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="BasicPersonInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DemonstrateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InputBasicinfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InputEducation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InputJob.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InputSkill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="JobUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SkillUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
